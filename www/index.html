@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>DATATÓN</title>
+    
+
+    {{ headContent() }}
+    {{ bootstrapLib() }}
+    
+    <!--  
+    Favicons
+    =============================================
+    -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  
+    Stylesheets
+    =============================================
+    
+    -->
+    <!-- Default stylesheets-->
+    <!--link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"-->
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-custom.css" rel="stylesheet">
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+    
+    <!--Modules CSS-->
+    <link rel="stylesheet" href="modules/topics_graph/css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Cargando...</div>
+      </div>
+      <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="https://r-conomics.netlify.app"><img src="assets/images/logo_white_large.png" width="120" style="margin-top:-10px"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#totop">Inicio</a></li>
+              <li><a class="section-scroll" href="#data">Generalidades</a></li>
+              <li><a class="section-scroll" href="#stats">Estadísticos principales</a></li>
+              <li><a class="section-scroll" href="#explorador">Vistazo espacial</a></li>
+              <li><a class="section-scroll" href="#project">Casos atípicos a la vista</a></li>
+              <!--li><a class="section-scroll" href="#contact">Contact</a></li-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/images/corrupcion.jpg">
+        <div class="titan-caption">
+          <div class="caption-content">
+            <div class="font-alt mb-30 titan-title-size-1">DATATÓN</div>
+            <div class="font-alt mb-40 titan-title-size-4">Detectando la corrupción</div><a class="section-scroll btn btn-border-w btn-round" href="#data">Explora los datos</a>
+          </div>
+        </div>
+      </section>
+      <div class="main">
+        <section class="module" id="data">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Información general</h2>
+                <div class="module-subtitle font-serif">
+                  ¿Qué encontrarás aquí?
+                </div>
+              </div>
+            </div>
+            <div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-piechart"></span></div>
+                  <h3 class="count-to font-alt" data-countto= "40019" ></h3>
+                  <h5 class="count-title font-serif">Datos sobre los contribuyentes</h5>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-map"></span></div>
+                  <h3 class="count-to font-alt" data-countto="20"></h3>
+                  <h5 class="count-title font-serif">Variables a analizar</h5>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-bargraph"></span></div>
+                  <h3 class="count-to font-alt" data-countto="6"></h3>
+                  <h5 class="count-title font-serif">Gráficos estadísticos</h5>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class=" icon-global"></span></div>
+                  <h3 class="count-to font-alt" data-countto="32"></h3>
+                  <h5 class="count-title font-serif">Datos espaciales</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="module bg-dark-90" id="stats">
+          <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Sobre los ingresos de los funcionarios públicos</h2>
+                <div class="module-subtitle font-serif">
+                </div>
+              </div>
+            </div>
+            {{mapas_gen}}
+          </div>
+           
+        </section>
+        
+        <section class="module pb-0" id="explorador">
+          <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">¿Quién declaró más ingresos en la fecha seleccionada?</h2>
+                <div class="module-subtitle font-serif">
+                </div>
+              </div>
+            </div>
+           {{dinamico}}
+          </div>
+        </section>
+       
+        
+        
+        
+        
+        
+
+        
+        <section class="module-small" id="project">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Casos atípicos encontrados</h2>
+                <div class="module-subtitle font-serif">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="post">
+                  <div class="post-header font-alt">
+                    <h1 class="post-title">Metodología utilizada</h1>
+                  </div>
+                  <div class="post-entry">
+                    <p>
+                     Si bien los casos atípicos pueden ser un poco ambiguos de detectar, se optó por utilizar un método sencillo para averiguar cuales son los posibles casos de corrupción para funcionarios de la CDMX. La idea es sencilla: Un gráfico de estilo <strong>"boxplot"</strong> nos muestra aquellos datos que se encuentran dentro de una media y un cierto rango, pero aquellos puntos fuera de dicho rango serán catalogados como <strong>outliers</strong>, o bien, datos atípicos, por lo que utilizando la función respectiva en R y extrayendo los datos del boxplot considerados como outliers, podemos identificarlos rápidamente.
+                     <br>
+                     Por otra parte, también hay que considerar que al menos un 90% de las personas que han reportado ingresos en su declaración fiscal han incrementado en algún punto dichos ingresos, por lo que aquellos casos que tengan una variación a la alza por encima de un cierto rango serán considerados como datos atípicos.
+                    </p>
+                    
+                    <h4 class="font-alt">Aquellos casos sospechosos</h4>
+                    <p>
+                     {{selector_fin}}
+                     
+                     {{atips}}
+                     
+                     {{texto_fin}}
+                    </p>
+                    
+                    <h4 class="font-alt">Referencias bibliográficas</h4>
+                    <p>
+                      <ol>
+    <li> Cohorte conformada por la población de 35 años o menos de acuerdo a los criterios de la CONAPO.
+</li>
+    <li>INEGI, “Censo Nacional de Población y Vivienda” (INEGI, 2020), https://www.inegi.org.mx/programas/ccpv/2020/.
+</li>
+    <li>Sociedad Hipotecaria Federal y Secretaría de Hacienda y Crédito Público, “Índice SHF de Precios de la Vivienda en México”, ÍNDICE SHF DE PRECIOS DE LA VIVIENDA EN MÉXICO, SEGUNDO TRIMESTRE DE 2021, 2021, https://www.gob.mx/shf/articulos/indice-shf-de-precios-de-la-vivienda-en-mexico-segundo-trimestre-de-2021-279130?idiom=es.
+</li>
+    </ol>
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-4 col-md-3 col-md-offset-1 sidebar">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Recursos utilizados</h5>
+                  <p>
+                   Esta aplicación fue hecha mediante el paquete <a href="https://shiny.rstudio.com">Shiny</a>, además de potenciarla con otros recursos como el paquete Leaflet para los mapas interactivos y el paquete Echarts4r para los gráficos utilizados. Ambos paquetes son una codificación de sus versiones originales de Javascript dentro de R, por lo que se pudieron crear bellas animaciones para visualizar los datos de esta app.
+                  </p>
+                  <p>
+                    Finalmente, la customización está dada por la plantilla HTML <a href="https://themewagon.com/themes/titan/">Titan</a>, la cual ayudó en gran medida a mejorar el aspecto visual del programa.
+                  </p>
+                </div>
+                
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Código</h5>
+                  <p>El código se encuentra disponible en un repositorio de <a href="https://github.com/socapal/dataton-tudinero">GitHub</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Desarrolladores</h5>
+                  <p>
+                    Jorge Valente Hernández Castelán<br>
+                    Eugenio José Mora Zamora
+                  </p>
+                  <p>
+                    <a href="https://r-conomics.netlify.app"><i class="fab fa-r-project" style="font-size:20px; padding-right:15px"></i></a>
+                    <a href="https://github.com/socapal/dataton-tudinero"><i class="fa fa-github" style="font-size:20px; padding-right:25px"></i></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Una aplicación hecha con amor</h5>
+                  <p>
+                    Mira otras aplicaciones y tutoriales de R en <a href="https://r-conomics.netlify.app">R-conomics</a>                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>  
+        
+        <hr class="divider-d">
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <p class="copyright font-alt">DATATÓN, 2021</p>
+              </div>
+              <!--div class="col-sm-6">
+                <div class="footer-social-links"><a href="https://www.linkedin.com/in/sschliebs/"><i class="fa fa-linkedin"></i></a><a href="https://github.com/nz-stefan/"><i class="fa fa-github"></i></a>
+                </div>
+              </div-->
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+    <!--  
+    JavaScripts
+    =============================================
+    -->
+    <!--script src="assets/lib/jquery/dist/jquery.js"></script-->
+    <!--script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script-->
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
